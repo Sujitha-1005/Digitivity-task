@@ -21,9 +21,9 @@ The Titanic dataset contains passenger information from the 1912 disaster. The g
 | `age` | Age in years | Fractional if < 1; xx.5 if estimated |
 | `sibsp` | Siblings / spouses aboard | Brother, sister, stepbrother, stepsister, husband, wife |
 | `parch` | Parents / children aboard | Mother, father, daughter, son, stepdaughter, stepson |
-| `ticket` | Ticket number | — |
-| `fare` | Passenger fare | — |
-| `cabin` | Cabin number | — |
+| `ticket` | Ticket number | Unique passenger ticket identifier |
+| `fare` | Passenger fare | Ticket price paid |
+| `cabin` | Cabin number | Cabin number where the passenger stayed |
 | `embarked` | Port of embarkation | C = Cherbourg, Q = Queenstown, S = Southampton |
 
 **Files used:** `train.csv` (891 rows), `test.csv` (418 rows)
